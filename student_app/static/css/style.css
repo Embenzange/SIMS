@@ -28,3 +28,43 @@ body {
     float: right;
     margin-right: 25px;
 }
+
+/*------------------------------------
+# SECTIONS
+-------------------------------------*/
+/* Section (background color) */
+.home {background-color: green;}
+.about {background-color: #007bff;}
+.courses {background-color: orange;}
+.contact {background-color: blueviolet;}
+/* Links in navbar */
+.links {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+.links:hover {
+    color: greenyellow;
+}
+/* Section Configuration(body) */
+.sections {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+/* Title on sections  */
+h2 {
+    font-size: 60px;
+    color: #fff;
+}
+/*------------------------------------
+# LOGIN
+-------------------------------------*/
+
+/*------------------------------------
+# OTHERS
+-------------------------------------*/
+/* Remove cursor pointer */
+.no-pointer {cursor: default !important;}
